@@ -1,0 +1,23 @@
+Scores with StringEncoding=LabeltoValues
+
+
+Score obtained using Catboost:
+0.9795514635479674
+
+Score obtained with LightGBM: 
+0.9708175375546141
+
+Score obtained after PCA with XGBClassifier
+0.658403638078612
+
+Score obtained after PCA with Catboost
+0.6599206464468752
+
+Score obtained with RandomForest: 
+0.9600065026956727
+
+Score obtained with SoftVoting(Catboost,LightGBM):
+0.9768703553353515
+
+Score obtained with SoftVoting(Catboost,LightGBM,RandomForest):
+0.9733070528812642
